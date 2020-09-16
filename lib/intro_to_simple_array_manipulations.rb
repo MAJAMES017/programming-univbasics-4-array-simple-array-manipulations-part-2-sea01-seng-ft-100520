@@ -11,13 +11,13 @@ def using_uniq(array)
 end
 
 def using_flatten(array)
- array.first
+ array.flatten!
 end
 
 def using_delete(array, string)
- array.last
+ array.delete(string)
 end
 
 def using_delete_at(array, integer)
- array.size
+ array.delete_at(integer)
 end
