@@ -1,4 +1,4 @@
-def array_concat(a ,b)
+def array_concat(a, b)
   a.concat(b)
 end
 
